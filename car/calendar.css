@@ -1,0 +1,113 @@
+ /**
+ This stylesheet is part of the java script calendar and date picker
+  **/
+#calender {
+	width: 200px;
+	font-family: ms sans serif, sans serif;
+	font-size: 7pt;
+	}
+
+#calenderTable {
+	border-style: outset;
+	border-width: 2px;
+	border-color: black;
+	background-color: #EEE;
+	display: none;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	}
+
+#calenderTableHead TR {
+	background-color: #5FB404;
+	}
+
+#calenderTableDays TR {
+	background-color: #B40404;
+	color: #E6E6E6;
+	}
+
+.normalDay {
+	border: 1px dotted black;
+	cursor: pointer;
+	}
+
+.hlDay {
+	border: 1px black;
+	background-color: #585858;
+	color: #E6E6E6;
+	cursor: pointer;
+	}
+
+.toDay {
+	border: 1px solid #E70;
+	background-color: #FD8;
+	color: #E70;
+	font-weight: bold;
+	cursor: pointer;
+	}
+
+.choosenDay {
+	border: 1px #000000;
+	background-color: #585858;
+	color: #E6E6E6;
+	font-weight: bold;
+	cursor: pointer;
+	}
+	.textbox
+{
+	border:1px solid #aaaaaa;
+	-moz-border-radius:5px;
+	padding: 3px 5px 3px 5px;
+	text-align:center;
+	color:#990000;
+}
+.textbox:focus, .textbox:hover
+{
+-moz-box-shadow:1px 1px 4px 4px #FFFF00;
+background-color:#FFFFCC;
+border-color:#414141;
+color:black;
+-moz-transform:scale(1.1) rotate(0deg);
+}
+#rege
+{
+height:550px;
+width:500px;
+background:#CCCCFF;
+-moz-border-radius:20px;
+-moz-box-shadow:1px 1px 5px 1px #FF00FF;
+margin-top:20px;
+}
+.buttonmenu
+{
+	padding:3px 5px 3px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	-moz-box-shadow:1px 1px 0px 1px #99FF00  ;
+	font-weight:600;
+	margin-right:3px;
+	-moz-transform:scale(1) rotate(0deg);
+	margin-top:3px;
+	color:black;
+	background-color:#ebebeb;
+	border:1px solid #414141;
+	cursor:pointer;
+	-moz-border-radius:15px;
+}
+.buttonmenu:hover, .buttonmenu:focus
+{
+	border:1px solid ;
+	-moz-border-radius:15px;
+	cursor:pointer;
+	background-color:#FFFFCC;
+	-moz-transform:scale(1.4) rotate(0deg);
+	-moz-box-shadow:1px 1px 5px 5px #FFFF00 ;
+	
+}
+.login
+{
+-moz-border-radius:15px;
+-moz-box-shadow:1px 1px 5px 5px #33FFFF ;
+}

@@ -1,0 +1,99 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+body
+{
+    background-color:aquamarine;
+    color:black;
+}
+
+
+.nav
+{
+    height: 59px;
+    width: 100%;
+    text-transform: capitalize;
+    border: black solid 2px;
+    background-color:aquamarine;
+    font-size: 25px;
+    padding-top: 12px;
+
+    
+}
+a
+{
+   padding-left: 120px; 
+text-decoration: none;
+text-align: center;
+}
+.navpadding
+{
+    padding-left: 350px;
+}
+.col
+    {
+      margin-left: 33pc;
+    }
+
+    a
+    {
+      
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    footer
+    {
+      
+      color:black;
+      background-color:blanchedalmond;
+      font-size: 20px;
+      margin-bottom: 0;
+
+    }
+  .maincon
+  {
+margin-top:  600px;;
+  }
+ /* img
+  { height: 100px;
+    width: 120px;
+    border-radius: 50%;
+    }*/
+    .infooter
+    {
+      position: absolute;
+      right: 750px;
+      TOP:850px;
+    
+      text-align: center;
+    }
+    /*form login*/
+    .login
+    {
+      
+      margin-left: 220px;
+      margin-top: 150px;
+      height: 1000px;
+      width: 800px;
+    }
+   .sb1
+    {
+      margin-left: 400px;
+    }
+    .hw
+    {
+      height: 50rem;
+      width: 100%;
+      
+    }
+    /*hero session img*/
+    .mySlides
+    {
+      border-radius: 0%;
+    }
+    img
+  { height: 100px;
+    width: 120px;
+    
+    }
